@@ -1,6 +1,6 @@
 git安装完后，还需要最后一步设置，在命令行输入：
 git config --global user.name “nicholas”
-git config --global user.email “1406325635@qq.com”
+git config --global user.email “@qq.com”
 注：git config命令的--global参数，用了这个参数，表示你这台表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。
 
 创建一个版本库：
@@ -62,8 +62,8 @@ git checkout -- test.js：(手动从文件管理器中删除)其实是用版本�
 
 
 配置Github：
-第一步：注册一个GitHub账号，就可以免费获得Git远程仓库。（nicholasLawliet，APTX4869***）
-第二步：创建SSH Key。在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有id_rsa和id_rsa.pub这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开Shell（Windows下打开Git Bash），创建SSH Key：ssh-keygen -t rsa -C "1406325635@qq.com"。
+第一步：注册一个GitHub账号，就可以免费获得Git远程仓库。
+第二步：创建SSH Key。在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有id_rsa和id_rsa.pub这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开Shell（Windows下打开Git Bash），创建SSH Key：ssh-keygen -t rsa -C "@qq.com"。
 第三步：登陆GitHub，打开“Account settings”，“SSH and GPG keys”页面。
 第四步：然后，点“New SSH key”，填上任意Title，在Key文本框里粘贴id_rsa.pub文件的内容。点“Add Key”，你就应该看到已经添加的Key。
 
