@@ -17,3 +17,10 @@ tttttttttttttt
 tttttttttttttt
 tttttttttttttt
 tttttttttttttt
+
+我是bug分支
+
+master也解决冲突
+解决冲突
+master在测试一遍
+bug分支在测试一遍
