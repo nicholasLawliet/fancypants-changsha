@@ -19,3 +19,5 @@ tttttttttttttt
 tttttttttttttt
 
 我是bug分支
+
+master也解决冲突
