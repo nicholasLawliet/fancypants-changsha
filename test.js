@@ -19,3 +19,5 @@ tttttttttttttt
 tttttttttttttt
 
 我是bug分支
+
+解决冲突
